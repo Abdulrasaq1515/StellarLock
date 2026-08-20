@@ -9,8 +9,6 @@ dist/
 .DS_Store
 
 # Environment variables
-.env
-.env.local
 .env*.local
 
 # TypeScript incremental build cache
@@ -36,7 +34,6 @@ fuzz/corpus/
 fuzz/artifacts/
 
 # Editor
-.vscode/
 .idea/
 
 *storybook.log
@@ -85,3 +82,4 @@ yarn-error.log*
 
 # Misc leftover root-level scratch files
 README.me
+config.bat
